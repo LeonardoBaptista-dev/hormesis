@@ -115,10 +115,20 @@ h6,
         margin-top: 10px;
         border-top: 1px solid rgba(255, 255, 255, .3);
         background: var(--dark);
+        margin-right: auto;
+        margin-left: 15px;
+    }
+
+    .navbar-logo {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: 15px;
     }
 
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
+        margin-right: auto;
+        margin-left: 15px;
     }
 }
 
@@ -139,6 +149,8 @@ h6,
         transition: .5s;
         opacity: 1;
     }
+
+    
 }
 
 
@@ -404,14 +416,3 @@ h6,
     box-shadow: none;
 }
 
-.copyright {
-    background: #111111;
-}
-
-.copyright a {
-    color: var(--primary);
-}
-
-.copyright a:hover {
-    color: var(--light);
-}
